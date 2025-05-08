@@ -5,7 +5,11 @@ import matplotlib.pyplot as plt
 st.title("🏡 Rent vs Buy: Cost-Benefit Calculator")
 st.markdown("**Created by Rohan for personal use and learning. No stress — just explore and enjoy! 😊**")
 st.markdown('📧 Drop me an email at [rohansamk@gmail.com](mailto:rohansamk@gmail.com) if you have any concerns.')
-
+st.markdown("""
+💡 **What this app does:**  
+This tool compares the cost of buying a house vs. renting it over time. It calculates your loan EMI, rent growth, and potential investment returns if you rent and invest the difference.  
+At the end, it shows who ends up with more value: the renter with investments or the buyer with a fully owned house.
+""")
 
 # --- USER INPUTS ---
 house_price = st.number_input("Enter the house price ($)", value=500000)
