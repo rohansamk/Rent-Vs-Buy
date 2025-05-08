@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title("🏡 Rent vs Buy: Cost-Benefit Calculator")
+st.caption("Created by Rohan for personal use and learning. No stress — just explore and enjoy! 😊")
+
 
 # --- USER INPUTS ---
 house_price = st.number_input("Enter the house price ($)", value=500000)
