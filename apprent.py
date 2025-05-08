@@ -109,7 +109,7 @@ st.markdown(f"""
 **After {loan_tenure_years} years**:
 
 - 🏠 The **buyer** has fully owned the house, which is now worth **${final_house_value:,.0f}**.
-- 💰 The **renter** has an investment value of **${final_investment:,.0f}**.
+- 💰 The **renter** has an investment portfolio valued at **${final_investment:,.0f}**.
 - 🏷️ The **renter’s monthly rent** at that point is **${final_rent:,.0f}**.
 """)
 
