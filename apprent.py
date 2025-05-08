@@ -7,9 +7,16 @@ st.markdown("**Created by Rohan for personal use and learning. No stress — jus
 st.markdown('📧 Drop me an email at [rohansamk@gmail.com](mailto:rohansamk@gmail.com) if you have any concerns.')
 st.markdown("""
 💡 **What this app does:**  
-This tool compares the cost of buying a house vs. renting it over time. It calculates your loan EMI, rent growth, and potential investment returns if you rent and invest the difference.  
-At the end, it shows who ends up with more value: the renter with investments or the buyer with a fully owned house.
+This tool helps you compare the long-term financial impact of buying a home versus renting one.
+
+It calculates:
+- 🏦 Your monthly loan EMI if you buy a house
+- 📈 How rent would increase each year if you choose to rent
+- 💰 How much money you could grow by investing the difference between EMI and rent (plus your down payment)
+
+At the end of the loan period, it shows who ends up with more value — the **renter** with their investment or the **buyer** with a fully owned house.
 """)
+
 
 # --- USER INPUTS ---
 house_price = st.number_input("Enter the house price ($)", value=500000)
