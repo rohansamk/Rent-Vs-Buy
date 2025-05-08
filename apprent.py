@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("🏡 Rent vs Buy: Cost-Benefit Calculator")
 st.caption("Created by Rohan for personal use and learning. No stress — just explore and enjoy! 😊")
+st.caption("📧 Drop me an email at rohansamk@gmail.com if you have any concerns.")
 
 
 # --- USER INPUTS ---
@@ -111,6 +112,10 @@ st.markdown(f"""
 - 🏠 The **buyer** has fully owned the house, which is now worth **${final_house_value:,.0f}**.
 - 💰 The **renter** has an investment portfolio valued at **${final_investment:,.0f}**.
 - 🏷️ The **renter’s monthly rent** at that point is **${final_rent:,.0f}**.
+
+---
+
+🤔 **So now tell me... who was wiser? The buyer or the renter?** 💭
 """)
 
 
