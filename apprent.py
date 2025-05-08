@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title("🏡 Rent vs Buy: Cost-Benefit Calculator")
-st.caption("Created by Rohan for personal use and learning. No stress — just explore and enjoy! 😊")
-st.caption("📧 Drop me an email at rohansamk@gmail.com if you have any concerns.")
+st.markdown("**Created by Rohan for personal use and learning. No stress — just explore and enjoy! 😊**")
+st.markdown('📧 Drop me an email at [rohansamk@gmail.com](mailto:rohansamk@gmail.com) if you have any concerns.')
 
 
 # --- USER INPUTS ---
