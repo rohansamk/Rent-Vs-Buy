@@ -16,7 +16,7 @@ loan_tenure_years = st.slider("Loan tenure (years)", min_value=1, max_value=30, 
 rental_yield = st.number_input("Rental yield (% of house price)", value=4.0) / 100
 rent_increase_rate = st.number_input("Expected annual rent increase rate (%)", value=3.0) / 100
 investment_return_rate = st.number_input("Annual investment return rate (%)", value=7.0) / 100
-st.caption("📈 This is the expected annual return if you invest the savings instead of buying (e.g., in stocks or mutual funds).")
+st.caption("📈 investment_return_rate is the expected annual return if you invest the savings instead of buying (e.g., in stocks or mutual funds).")
 house_price_increase_rate = st.number_input("Annual real estate capital appreciation (%)", value=6.0) / 100
 
 # --- CALCULATIONS ---
